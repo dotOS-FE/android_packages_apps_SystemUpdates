@@ -26,14 +26,14 @@ android_app {
         proguard_flags_files: ["proguard.flags"],
     },
 
-    required: ["privapp_whitelist_com.dot.updater.xml"],
+    required: ["privapp_whitelist_com.dotfe.updater.xml"],
 
 }
 
 prebuilt_etc {
-    name: "privapp_whitelist_com.dot.updater.xml",
+    name: "privapp_whitelist_com.dotfe.updater.xml",
 
-    src: "privapp_whitelist_com.dot.updater.xml",
+    src: "privapp_whitelist_com.dotfe.updater.xml",
     sub_dir: "permissions",
 
 }

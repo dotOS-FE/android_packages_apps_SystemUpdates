@@ -1,4 +1,4 @@
-Updater
+dotOS Fan Edition Updater
 =======
 Simple application to download and apply OTA packages.
 
@@ -6,7 +6,7 @@ Simple application to download and apply OTA packages.
 Server requirements
 -------------------
 The app sends `GET` requests to the URL defined by the `updater_server_url`
-resource (or the `dot.updater.uri` system property) and expects as response
+resource (or the `dotfe.updater.uri` system property) and expects as response
 a JSON with the following structure:
 ```json
 {
@@ -18,7 +18,7 @@ a JSON with the following structure:
       "romtype":"OFFICIAL",
       "size":1666374431,
       "url":"https://url/update.zip",
-      "version":"v5.0.0",
+      "version":"v1.0",
       "changelog":[
         {
           "miscTitle":"",
